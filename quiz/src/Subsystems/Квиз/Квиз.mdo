@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="583d5211-21c3-43d6-b66c-e92606607328">
+  <name>Квиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квиз</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Вопросы</content>
+  <content>Catalog.Раунды</content>
+  <content>Catalog.Команды</content>
+  <content>Catalog.Игры</content>
+  <content>InformationRegister.РезультатыКвиза</content>
+  <content>Document.Квиз</content>
+  <content>DataProcessor.ИграВКвиз</content>
+  <content>Role.Капитан</content>
+  <content>Role.Ведущий</content>
+  <content>AccumulationRegister.ТурнирнаяТаблица</content>
+</mdclass:Subsystem>

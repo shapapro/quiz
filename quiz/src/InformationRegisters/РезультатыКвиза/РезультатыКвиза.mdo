@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="821980e5-bdfa-4a38-b187-bc4ba3b01320">
+  <producedTypes>
+    <selectionType typeId="33314839-29e7-47e0-bafa-63a54476dcb8" valueTypeId="3bf18450-14b8-4710-a38f-69b9ba9bdf36"/>
+    <listType typeId="ec0deaa8-faa9-4a56-b023-ae0ea1ae8979" valueTypeId="e50ed165-180e-4cf1-a78e-ac162d368576"/>
+    <managerType typeId="c73ee492-c97f-48e2-a6c5-6eaec0f0cede" valueTypeId="a712a9e2-1eb9-41b2-891a-12f03af49c8d"/>
+    <recordSetType typeId="67b46520-2a7c-4f3c-87af-11669c54faf6" valueTypeId="210e7734-cfb6-434e-a035-7186bebe6c1f"/>
+    <recordKeyType typeId="4da2a6ca-38fa-4cad-bab4-a0b799339668" valueTypeId="49231e39-d44f-47ba-93c0-87c5198fa04b"/>
+    <recordType typeId="70bd07d9-b452-421d-b384-0ae367488c67" valueTypeId="ddd864a5-d320-4e16-a691-b6cb2da1a316"/>
+    <recordManagerType typeId="3a4b1408-103c-4b24-87f6-b50aa5e5fc1c" valueTypeId="d3a7ae83-2614-4ec5-8276-a1d8cbd15ee8"/>
+  </producedTypes>
+  <name>РезультатыКвиза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты квиза</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce2c053e-ebd4-4337-aff4-8a12ef4cc532">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5fe764c7-d22b-4bd0-83aa-333d524c9907">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5218605d-d6ab-4db2-9170-a74d9960beef">
+    <name>Квиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квиз</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Квиз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d3caad4d-8f48-4bf1-9d04-a5dd3b04643d">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c593a481-f8ca-4bd8-8b56-49338b6ad0af">
+    <name>Раунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раунд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Раунды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8fe1270e-56a0-42df-9ed4-b9681f02ee5e">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вопросы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="17c41cf0-d754-46b7-a1a8-f0e9c024aa3a">
+    <name>Печать</name>
+  </templates>
+</mdclass:InformationRegister>

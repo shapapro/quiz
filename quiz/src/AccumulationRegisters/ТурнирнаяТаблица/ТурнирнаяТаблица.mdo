@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b065211-fd76-4a4c-9bfb-6ce8247f73c6">
+  <producedTypes>
+    <selectionType typeId="f1e4f541-543c-4835-9eb1-1ddd929f11a9" valueTypeId="65bf827a-ad3a-4770-b806-fca3084d7119"/>
+    <listType typeId="63a75ae1-b193-4190-a998-856f0693d5c4" valueTypeId="da3ea44d-51d9-4417-bc2c-49f64e2958ae"/>
+    <managerType typeId="b5784844-9563-4692-84f7-bec4b2344aa3" valueTypeId="0546d6f0-8355-4a1d-a8a2-0a4b1234d0b5"/>
+    <recordSetType typeId="4a1fedfe-87aa-48de-81e2-881488d88c56" valueTypeId="c2a6a382-69b7-46b5-875d-72359112b078"/>
+    <recordKeyType typeId="2c9a0939-c5f9-440e-b3c7-096e89fa6f0d" valueTypeId="59ed2f9b-fe22-4ad1-9e41-3caca57a6c08"/>
+    <recordType typeId="18f2e5ad-8980-4ae6-8418-0293d66c1f29" valueTypeId="5264079f-eb42-4258-b18d-853fd0edf74f"/>
+  </producedTypes>
+  <name>ТурнирнаяТаблица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Турнирная таблица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f96c6969-9a18-476a-8419-adaceb2064ce">
+    <name>КоличествоБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ca933ef6-7325-4b20-8057-fc63cfff8619">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="78920d40-d688-4354-bdd3-5f1065cbf8d0">
+    <name>Раунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раунд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Раунды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

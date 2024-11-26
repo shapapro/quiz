@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95619390-4918-4bde-8628-5a1803c8617d">
+  <producedTypes>
+    <objectType typeId="40f4e78c-8d9c-4678-8653-6ee409ed5cb7" valueTypeId="7d4ee82e-7117-4c8c-9c58-ed9f5a1a695d"/>
+    <refType typeId="a0a71dc1-2757-4113-8b98-18ee98e5771f" valueTypeId="e1cc0e80-2d5c-49fb-b9d1-863207276845"/>
+    <selectionType typeId="11f31a5d-bbea-4ab1-9893-6bf85648aefe" valueTypeId="fd6e2bba-b7e2-4f57-aba7-867e4c652f7c"/>
+    <listType typeId="c8687994-7941-447e-b5dd-3505c2c76125" valueTypeId="985dd40b-f422-408b-b3bc-801e721f0aee"/>
+    <managerType typeId="2b66b977-0c08-4e97-87a5-83bc1b2d16e2" valueTypeId="5a0d5bee-508f-4914-b23f-3ecb759a9ca5"/>
+  </producedTypes>
+  <name>Квиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квиз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Квиз.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Квиз.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ТурнирнаяТаблица</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="49db83b7-af32-4566-b08a-122790912250">
+    <name>Игра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Игры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5bbac28c-b748-42e3-8b6d-7f3634ebefd0">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1a2884ad-b7a2-43f0-a478-5c927ac589cc">
+    <producedTypes>
+      <objectType typeId="fb0a6ce6-b495-4875-975d-80df31193547" valueTypeId="d022daee-5c99-4d38-95f9-4be11413e59f"/>
+      <rowType typeId="8d91e93a-6bf4-417b-a28a-94086b2d8325" valueTypeId="7f5e5f2d-57fc-4342-9902-b2b69b76c27b"/>
+    </producedTypes>
+    <name>Команды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команды</value>
+    </synonym>
+    <attributes uuid="e5b1870d-2c64-41b2-9c6c-dc15f3fba8a4">
+      <name>Команда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Команда</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Команды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5daa8a66-e27b-4861-a059-3de86b4e8b87">
+    <producedTypes>
+      <objectType typeId="0bebc896-b76d-4152-adc4-c3ac7dfaca83" valueTypeId="32f44067-a9cc-4046-8ca4-39e957898131"/>
+      <rowType typeId="ff1d9e5f-8fb3-48e1-a223-1e22459914a4" valueTypeId="38bf4772-723c-4afd-a5a3-a98da92ab741"/>
+    </producedTypes>
+    <name>Раунды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раунды</value>
+    </synonym>
+    <attributes uuid="c9c6f2c2-a812-4705-ba69-3536b80cddf9">
+      <name>Раунд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раунд</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Раунды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3983e5f9-14b0-4c93-8296-51ce922d6b5d">
+      <name>СоСписаниемБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Со списанием баллов</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1aa9a476-a6c3-49b5-b9cd-a5a7f2cd31b3">
+      <name>Активность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активность</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5053b768-2c65-44c7-8a48-4e3de83d6a56">
+    <producedTypes>
+      <objectType typeId="73a4ce2f-2de8-48d0-88fa-78ea8b098d3f" valueTypeId="4396e014-d9c4-4a6e-bdfa-564e88bb542a"/>
+      <rowType typeId="0537449a-bd72-4720-acfc-def5df185aec" valueTypeId="46d7148e-fe2b-4050-a45c-7f8b2eb4ece4"/>
+    </producedTypes>
+    <name>ТурнирнаяТаблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Турнирная таблица</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0a7c34e3-077f-4f5c-8c4c-98272eabcdce">
+      <name>Команда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Команда</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Команды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a09b24a2-8bb8-4c88-86a4-e750245ad82e">
+      <name>Раунд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раунд</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Раунды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17398b18-4688-4843-9e34-436e3d223eb5">
+      <name>КоличествоБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество баллов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

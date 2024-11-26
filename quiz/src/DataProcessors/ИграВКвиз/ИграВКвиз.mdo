@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcd329ee-c99a-48dc-855c-ba97aeb98d87">
+  <producedTypes>
+    <objectType typeId="160d9022-08d9-48e6-8217-21f2315dff73" valueTypeId="c76cec17-cb84-4df0-a6c5-ead550755113"/>
+    <managerType typeId="9bc98f0f-f6be-4901-bff6-8769d6f5dbde" valueTypeId="0a5716de-207f-406c-8b2b-dc3aecf75846"/>
+  </producedTypes>
+  <name>ИграВКвиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игра в квиз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="5d52f3f6-6d17-4cf1-9d15-43f5844a04d1">
+    <name>Квиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квиз</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Квиз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="87479408-95a4-4172-bbad-ba55f4b1f2a8">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="99e239be-aa32-42aa-aca4-a5a268a87c1e">
+    <name>Раунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раунд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Раунды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0ee38dbd-7341-438c-ab83-508be02ccc28">
+    <name>ФормаВедущего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ведущего</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e418068-f28e-49e7-a081-f7690680cec4">
+    <name>ФормаКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма команды</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5bc8331f-b281-4c96-9c9b-479f92b833cb">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

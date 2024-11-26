@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a3f095-b0cb-4af1-af7b-360469ebd9eb">
+  <producedTypes>
+    <containerType typeId="4a6579a9-b6f1-4491-be03-930eb2e84c5f" valueTypeId="60936d12-7805-405e-96a0-39cc753e3825"/>
+  </producedTypes>
+  <name>ТипыОтветов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ответов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

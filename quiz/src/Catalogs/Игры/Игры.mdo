@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="125ee8eb-cc12-4e69-bb98-557b2620556a">
+  <producedTypes>
+    <objectType typeId="3fd3d5e0-a8a3-4f5e-a81c-d4a216399b0c" valueTypeId="1d6ab2a3-7dc7-4ba1-8b28-8db3bfa6a2f6"/>
+    <refType typeId="bb08f364-2ac0-4dda-a28b-e8d4f8e2aeb4" valueTypeId="96884c9a-c4c4-4745-ad4c-191c05269704"/>
+    <selectionType typeId="0319cd72-62f8-464a-9ee8-d523e5d3588e" valueTypeId="6def36a3-d316-4951-afe0-00e5d50d246c"/>
+    <listType typeId="aaf4a82e-4d97-4581-a435-ab3dc8e0fc04" valueTypeId="ad4a7feb-d8ef-4f2d-9c02-1858b553e1a9"/>
+    <managerType typeId="54bfb418-ce62-4b8b-b850-3e283f723fb7" valueTypeId="67865f38-3a88-44d1-b725-78ca84554ff6"/>
+  </producedTypes>
+  <name>Игры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Игры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Игры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Игра</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="5b5756d5-16a9-4b0e-b411-591da58db7ca">
+    <producedTypes>
+      <objectType typeId="00515fad-3cf6-4075-85a0-242b83d0eb4f" valueTypeId="228c7901-335a-4cd7-be86-f6cfeb08d179"/>
+      <rowType typeId="b146a4a3-aea5-4c42-99f7-3facd4691352" valueTypeId="de073e5f-f950-4481-88ce-8dac5fd463d6"/>
+    </producedTypes>
+    <name>Раунды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раунды</value>
+    </synonym>
+    <attributes uuid="75794794-3475-4b94-99a7-53cbf37374a4">
+      <name>Раунд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раунд</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Раунды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

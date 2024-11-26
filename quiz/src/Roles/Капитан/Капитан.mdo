@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49e2d2df-5e37-4a7f-a90a-7a5e3e4ed230">
+  <name>Капитан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Капитан</value>
+  </synonym>
+</mdclass:Role>
